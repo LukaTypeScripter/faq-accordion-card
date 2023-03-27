@@ -36,14 +36,14 @@ body {
   flex-direction: column;
   background-color: var(--white-color);
   width: 327px;
-  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
-border-radius: 23px;
-background-image: url();
-background-repeat: no-repeat;
-background-size: 200px ;
-background-position: center top -50px;
-z-index: 110;
-position: relative;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122,    0.497159);
+ border-radius: 23px;
+ background-image: url();
+ background-repeat: no-repeat;
+ background-size: 200px ;
+ background-position: center top -50px;
+ z-index: 110;
+ position: relative;
 
 }
 .card::before {
@@ -81,8 +81,8 @@ position: relative;
   margin-top: 13px;
   color: var(--grayish--about);
   font-weight: var(--font-400);
-font-size: 12px;
-line-height: 18px;
+  font-size: 12px;
+  line-height: 18px;
 }
 #faq-question {
   font-size: 13px;
@@ -92,12 +92,11 @@ font-weight: var(--font-400);
 }
 .line {
   height: 1px;
-width: 279px;
-background-color: var(--light-gray);
-
-margin-right: 24px;
-margin-top: 16px;
-}
+  width: 279px;
+  background-color: var(--light-gray);
+  margin-right: 24px;
+  margin-top: 16px;
+} 
 
 
 @media only screen and (min-width: 1440px) {
